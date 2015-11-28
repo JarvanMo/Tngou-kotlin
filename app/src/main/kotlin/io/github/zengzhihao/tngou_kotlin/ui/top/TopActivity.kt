@@ -9,6 +9,7 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ListView
+import butterknife.bindView
 import com.squareup.picasso.Picasso
 import com.trello.rxlifecycle.ActivityEvent
 import io.github.zengzhihao.tngou_kotlin.Application
@@ -16,7 +17,6 @@ import io.github.zengzhihao.tngou_kotlin.R
 import io.github.zengzhihao.tngou_kotlin.lib.api.model.Result
 import io.github.zengzhihao.tngou_kotlin.lib.api.service.TopService
 import io.github.zengzhihao.tngou_kotlin.ui.base.AbstractActivity
-import io.github.zengzhihao.tngou_kotlin.utils.bindView
 import rx.Observer
 import rx.Subscription
 import timber.log.Timber

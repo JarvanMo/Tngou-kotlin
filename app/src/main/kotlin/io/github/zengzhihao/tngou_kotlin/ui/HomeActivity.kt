@@ -34,12 +34,12 @@ class HomeActivity : AbstractActivity() {
 
     @Subscribe
     fun onStartTopActivity(event: OnStartTopActivityEvent) {
-        TopActivity.start(this);
-        finish();
+        TopActivity.start(this)
+        finish()
     }
 
     override fun onDestroy() {
-        _bus.unregister(this);
+        _bus.unregister(this)
         super.onDestroy()
     }
 
